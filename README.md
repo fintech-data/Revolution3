@@ -27,5 +27,5 @@
 - corona :<i>str</i>  코로나 시기 여부 (2020.01.31 기준 WHO 펜데믹 선언 이전은 0 이후는1)</pre>
 
 #### **데이터 불러오기**
-<pre><code>international_portfolio_data = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution3/main/data/international_portfolio_data.csv')
+<pre><code>international_portfolio_data = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution3/main/data/international_portfolio_data.csv', index_col = 0)
 </code></pre>
